@@ -79,26 +79,40 @@ p{
 .blog2 a{
     color: rgba(6, 2, 2, 0.541);
 }
-footer {
-    text-align: center;
-    padding: 60px;
-    background-color: DarkSalmon;
-    color: white;
-  }
-  .footer-name{
-    font-size: 30px;
-    margin-bottom: 17px;
-  }
-  footer a{
-    color: wheat;
+
+/* contact-sec */
+.contact-section{
+    background-color: rgba(4, 4, 30, 0.872);
+}
+
+.contact-bttom{
+    background-color: rgba(4, 4, 30, 0.11);;
+}
+/* footer */
+footer{
+    background-color: rgb(128, 128, 128);
+}
+
+.footer-items{
+    color: #ffffff7a ;
+}
+
+.footer-items li{
+    list-style: none;
+}
+
+.footer-items li a{
     text-decoration: none;
-    background-color: rgb(225, 27, 45);
-    padding: 5px;
-    margin:auto;
-  }
-  footer span{
-    color: black;
-  }
+    color: #ffffff7a;
+    display: block;
+    padding-bottom:20px ;
+}
+
+.footer-items li a:hover{
+    color:#c8e7e647;
+}
+
+
 
 /* @media on screen and (max width:667px) {
     .middle-section{

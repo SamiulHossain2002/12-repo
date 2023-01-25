@@ -97,6 +97,8 @@ footer{
     background-color: rgb(128, 128, 128);
 }
 
+
+
 .footer-items{
     color: #ffffff7a ;
 }
@@ -118,10 +120,14 @@ footer{
 
 
 
-/* @media on screen and (max width:667px) {
-    .middle-section{
+ @media only screen and (max-width:667px) {
+    .middle {
 
+        
+        flex-direction: column-reverse;
+
+        
+        
     }
 
-    
-} */
+}
